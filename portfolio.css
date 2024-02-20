@@ -1,0 +1,61 @@
+body{
+    background-color:rgb(243, 244, 243);
+}
+nav{
+    display:flex;justify-content:space-between;
+    color:black;
+    margin-left:30px;
+    font-size:26px;
+}
+nav h1{
+    font-size:40px;
+    color:rgb(200, 69, 69);
+    
+    
+}
+ul{
+    display:flex;
+}
+ul li{
+    list-style:none;
+    margin-inline:20px;
+}
+
+.main-div{
+    display:flex;
+    justify-content:space-between;
+    color:black;
+    margin-top:10px;
+}
+.main-div .head{
+    font-size:25px;
+    margin-left: 20px;
+}
+.head button{
+    width: 180px;
+    height: 47px;
+    background-color:black;
+    color:white;
+    font-size: 25px;
+    border-radius: 6px;
+}
+.head button:hover{
+    background-color:black;
+    border: 3px solid rgba(149, 27, 72, 0.801);
+    cursor:pointer;
+}
+.img img{
+   max-width:570px;
+   margin-right:150px;
+   
+}
+.icon {
+    font-size:2rem;
+    margin-left:500px;
+    list-style:none;
+    margin-top:60px;
+    padding-left:60px;
+    
+    
+    
+}
